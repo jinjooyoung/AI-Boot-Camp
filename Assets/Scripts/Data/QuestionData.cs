@@ -8,13 +8,10 @@ public class QuestionData : ScriptableObject
     public int ID;
 
     [Header("질문 보충")]
-    public string variableName;
+    public string questionSubText;
 
     [Header("질문")]
     public string title;
-
-    [TextArea]
-    public string tip;
 
     [Header("토글 추천 답변")]
     public List<string> recommendedAnswers = new();

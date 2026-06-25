@@ -4,7 +4,7 @@ public class PromptAnswer
 {
     public QuestionData question;
     public string input;
-    public List<string> toggles = new();
+    public List<string> toggleAnswers = new();
 
     public string GetValue()
     {
@@ -13,7 +13,7 @@ public class PromptAnswer
         if (!string.IsNullOrWhiteSpace(input))
             values.Add(input);
 
-        values.AddRange(toggles);
+        values.AddRange(toggleAnswers);
 
         return string.Join(", ", values);
     }
