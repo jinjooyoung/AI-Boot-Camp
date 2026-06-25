@@ -23,6 +23,10 @@ public class PromptUIManager : MonoBehaviour
     [SerializeField] private string activeColorHex = "#80624C";
     [SerializeField] private string inactiveColorHex = "#EADED5";
 
+    [Header("캔버스 그룹")]
+    public CanvasGroup QuestionTab;
+    public CanvasGroup PromptTab;
+
     private void Awake()
     {
         Instance = this;
@@ -63,6 +67,38 @@ public class PromptUIManager : MonoBehaviour
         }
     }
 
+    public void ToggleQuestionTab()
+    {
+        if (QuestionTab.alpha == 0)
+        {
+            QuestionTab.alpha = 1;
+            QuestionTab.interactable = true;
+            QuestionTab.blocksRaycasts = true;
+        }
+        else
+        {
+            QuestionTab.alpha = 0;
+            QuestionTab.interactable = false;
+            QuestionTab.blocksRaycasts = false;
+        }
+    }
+
+    public void TogglePromptTab()
+    {
+        if (PromptTab.alpha == 0)
+        {
+            PromptTab.alpha = 1;
+            PromptTab.interactable = true;
+            PromptTab.blocksRaycasts = true;
+        }
+        else
+        {
+            PromptTab.alpha = 0;
+            PromptTab.interactable = false;
+            PromptTab.blocksRaycasts = false;
+        }
+    }
+
     //--------------------------------------------------
     // 현재 페이지 표시
     //--------------------------------------------------
@@ -85,6 +121,9 @@ public class PromptUIManager : MonoBehaviour
         {
             progressDotList[i].color =
                 (i == currentId) ? activeColor : inactiveColor;
+
+            progressDotList[i].transform.localScale =
+                (i == currentId) ? new Vector3(1.2f, 1.2f, 1.2f) : new Vector3(1, 1, 1);
         }
     }
 

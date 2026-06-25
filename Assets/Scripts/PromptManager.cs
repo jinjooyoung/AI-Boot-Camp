@@ -57,6 +57,10 @@ public class PromptManager : MonoBehaviour
     {
         currentCount = 0;
         currentQuestion = datas[currentCount];
+
+        PromptUIManager.Instance.ToggleQuestionTab();
+        PromptUIManager.Instance.RefreshProgressDots();
+        PromptUIManager.Instance.UpdateUI();
     }
 
     //--------------------------------------------------
