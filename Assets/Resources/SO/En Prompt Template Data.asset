@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 758412f4f07c6864990ffbb7048f75a9, type: 3}
+  m_Name: En Prompt Template Data
+  m_EditorClassIdentifier: Assembly-CSharp::PromptTemplateData
+  template: "You are one of South Korea's most creative SNS marketing consultants
+    specializing in small businesses, as well as an AI multimedia content creator.\r\n\r\nBased
+    on the following **Store & Content Data**, generate a complete, high-quality
+    SNS marketing package that a small business owner can immediately copy and use.\r\n\r\n---\r\n\r\n###
+    Store & Content Data\r\n\r\n```json\r\n{\r\n  \"\uCF58\uD150\uCE20_\uD0C0\uC785\":
+    \"{0}\",\r\n  \"\uD575\uC2EC_\uD0C0\uAC9F\uCE35\": \"{1}\",\r\n  \"\uBE0C\uB79C\uB4DC_\uBD84\uC704\uAE30\":
+    \"{2}\",\r\n  \"\uD64D\uBCF4\uD560_\uC0C1\uD488_\uBC0F_\uC11C\uBE44\uC2A4\":
+    \"{3}\",\r\n  \"\uB9E4\uC7A5\uBA85_\uBC0F_\uC704\uCE58\": \"{4}\",\r\n  \"\uAC15\uC810_\uBC0F_\uCC28\uBCC4\uC810\":
+    \"{5}\",\r\n  \"\uC774\uBC88_\uAC8C\uC2DC\uAE00\uC758_\uD575\uC2EC\uBAA9\uC801\":
+    \"{6}\",\r\n  \"\uC804\uB2EC\uD560_\uD61C\uD0DD_\uBC0F_\uC774\uBCA4\uD2B8\":
+    \"{7}\"\r\n}\r\n```\r\n\r\n---\r\n\r\nUsing the data above, generate the following
+    sections **in order**.\r\n\r\nThe entire response must faithfully reflect the
+    brand personality of **\"{2}\"**, while remaining natural, persuasive, and practical.\r\n\r\n#
+    1. Recommended Hashtag Package\r\n\r\nRecommend approximately **15 highly relevant
+    hashtags**.\r\n\r\nInclude hashtags based on:\r\n\r\n* Business category\r\n*
+    Store location\r\n* Target audience ({1})\r\n* Product/service\r\n* Current SNS
+    search trends\r\n\r\nUse hashtags that customers are likely to search for.\r\n\r\n---\r\n\r\n#
+    2. SNS Caption\r\n\r\nWrite a complete SNS caption optimized for the selected
+    **Content Type ({0})**.\r\n\r\nRequirements:\r\n\r\n* Fully reflect the brand
+    tone **\"{2}\"**\r\n* Appeal directly to the target audience **\"{1}\"**\r\n*
+    Sound authentic, warm, and trustworthy, as if written by the business owner.\r\n*
+    Capture attention within the first 1\u20132 lines.\r\n* Use short paragraphs
+    for readability.\r\n* Add appropriate emojis naturally.\r\n* End with a strong
+    Call-To-Action including:\r\n\r\n  * Store location ({4})\r\n  * Benefits or
+    event ({7})\r\n\r\n---\r\n\r\n# 3. Content-Type-Specific Production Guide\r\n\r\n**Important**\r\n\r\nAnalyze
+    the selected **Content Type ({0})**.\r\n\r\nChoose **ONLY ONE** of the following
+    cases (A\u2013D) depending on the content type, and generate a detailed result.\r\n\r\n---\r\n\r\n##
+    Case A\r\n\r\nIf **{0}** is related to:\r\n\r\n* Shorts\r\n* Reels\r\n* TikTok\r\n*
+    Short-form video\r\n* YouTube Shorts\r\n\r\nGenerate:\r\n\r\n### Short-form Video
+    Concept\r\n\r\nSummarize the concept in one sentence.\r\n\r\n### Video Script\r\n\r\nCreate
+    a 15-second script.\r\n\r\nStructure:\r\n\r\n0\u20133 sec\r\n\r\nAttention-grabbing
+    hook.\r\n\r\n3\u201312 sec\r\n\r\nIntroduce the product/service ({3}) while emphasizing
+    its strengths ({5}).\r\n\r\n12\u201315 sec\r\n\r\nGuide viewers to visit the
+    store ({4}) and mention the promotion ({7}).\r\n\r\n---\r\n\r\n## Case B\r\n\r\nIf
+    **{0}** is related to:\r\n\r\n* Poster\r\n* Feed Image\r\n* Banner\r\n* Promotional
+    Image\r\n\r\nGenerate:\r\n\r\n### Main Image Copy\r\n\r\nA powerful headline
+    and supporting copy for the image.\r\n\r\n### AI Image Generation Prompt (English)\r\n\r\nWrite
+    a professional prompt that can be directly used in:\r\n\r\n* ChatGPT (DALL\xB7E)\r\n*
+    Midjourney\r\n* Stable Diffusion\r\n\r\nRequirements:\r\n\r\n* No text in the
+    generated image\r\n* Professional commercial photography\r\n* High quality\r\n*
+    Match the atmosphere \"{2}\"\r\n* Emphasize product/service \"{3}\"\r\n* End
+    with:\r\n\r\n\"No text, professional background photography\"\r\n\r\n---\r\n\r\n##
+    Case C\r\n\r\nIf **{0}** is:\r\n\r\n* Card News\r\n* Carousel\r\n* Multi-slide
+    content\r\n\r\nGenerate a **4\u20135 slide content plan**.\r\n\r\nSlide 1\r\n\r\nAttention-grabbing
+    title.\r\n\r\nDescribe the recommended background image.\r\n\r\nSlides 2\u20134\r\n\r\nExplain:\r\n\r\n*
+    Product features ({3})\r\n* Strengths ({5})\r\n* Why customers should choose
+    it\r\n\r\nUse concise and highly readable copy.\r\n\r\nFinal Slide\r\n\r\nInclude:\r\n\r\n*
+    Store location ({4})\r\n* Promotion ({7})\r\n* Strong CTA encouraging customers
+    to visit.\r\n\r\n---\r\n\r\n## Case D\r\n\r\nIf **{0}** is:\r\n\r\n* Blog Post\r\n*
+    Local Community Post\r\n* Long-form content\r\n\r\nGenerate:\r\n\r\n### SEO-Friendly
+    Titles\r\n\r\nRecommend 2\u20133 search-optimized titles.\r\n\r\n### Expanded
+    Article\r\n\r\nExpand the SNS caption into a complete long-form article including:\r\n\r\n*
+    Product details\r\n* Store introduction\r\n* Directions\r\n* Additional customer
+    information\r\n* Visiting tips\r\n\r\n---\r\n\r\n# 4. Smartphone Photography
+    Tips\r\n\r\nAssume the business owner is **not using AI-generated images**.\r\n\r\nRecommend
+    **exactly two practical smartphone photography or filming tips** that best match
+    this content.\r\n\r\nThe advice should be simple, practical, and easy for beginners
+    to follow.\r\n\r\n---\r\n\r\n## Writing Style\r\n\r\n* Professional but warm\r\n*
+    Marketing-focused\r\n* Practical\r\n* Easy to understand\r\n* Ready to copy and
+    use\r\n* Do not use generic AI-style expressions.\r\n* Produce detailed, high-quality
+    content that requires little or no editing before publishing.\r\n"

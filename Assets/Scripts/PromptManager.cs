@@ -23,7 +23,8 @@ public class PromptManager : MonoBehaviour
     public List<QuestionData> datas = new();
 
     [Header("프롬프트 템플릿")]
-    public PromptTemplateData templateData;
+    public PromptTemplateData templateDataKr;
+    public PromptTemplateData templateDataEn;
 
     private void Awake()
     {
@@ -69,11 +70,17 @@ public class PromptManager : MonoBehaviour
 
     public void NextQuestion()
     {
+        SaveAnswer();
+
         // 마지막 질문이면
         if (currentCount == datas.Count - 1)
         {
             // Prompt 생성
-            BuildPrompt();
+            PromptUIManager.Instance.PromptKr.text = BuildPrompt(true);
+            PromptUIManager.Instance.PromptEn.text = BuildPrompt(false);
+
+            PromptUIManager.Instance.ToggleQuestionTab();
+            PromptUIManager.Instance.TogglePromptTab();
             return;
         }
 
@@ -81,21 +88,45 @@ public class PromptManager : MonoBehaviour
 
         currentCount++;
         currentQuestion = datas[currentCount];
+
+        PromptUIManager.Instance.RefreshProgressDots();
+        PromptUIManager.Instance.UpdateUI();
+
+        inputField.text = "";
+
+        for (int i = 0; i < toggleList.Count; i++)
+        {
+            toggleList[i].isOn = false;
+        }
     }
 
     //--------------------------------------------------
     // Prompt 생성
     //--------------------------------------------------
 
-    public string BuildPrompt()
+    public string BuildPrompt(bool isKr)
     {
-        return Regex.Replace(templateData.template, @"\{(\d+)\}", match =>
+        if (isKr)
         {
-            int id = int.Parse(match.Groups[1].Value);
+            return Regex.Replace(templateDataKr.template, @"\{(\d+)\}", match =>
+            {
+                int id = int.Parse(match.Groups[1].Value);
 
-            return answers.TryGetValue(id, out string value)
-                ? value
-                : match.Value; // 없으면 {1} 그대로 유지
-        });
+                return answers.TryGetValue(id, out string value)
+                    ? value
+                    : match.Value; // 없으면 {1} 그대로 유지
+            });
+        }
+        else
+        {
+            return Regex.Replace(templateDataEn.template, @"\{(\d+)\}", match =>
+            {
+                int id = int.Parse(match.Groups[1].Value);
+
+                return answers.TryGetValue(id, out string value)
+                    ? value
+                    : match.Value; // 없으면 {1} 그대로 유지
+            });
+        }
     }
 }

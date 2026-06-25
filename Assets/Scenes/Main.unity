@@ -251,7 +251,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 49460564}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -1846,8 +1846,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u200B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 747ca2771a642bb4d89a4c02449ae6f2, type: 2}
+  m_sharedMaterial: {fileID: 9199044648890540656, guid: 747ca2771a642bb4d89a4c02449ae6f2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1871,8 +1871,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 62.3
+  m_fontSizeBase: 62.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2006,7 +2006,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 889107190}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2110876049}
+        m_TargetAssemblyTypeName: PromptManager, Assembly-CSharp
+        m_MethodName: NextQuestion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &889107190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3438,7 +3450,7 @@ MonoBehaviour:
   m_HideSoftKeyboard: 0
   m_CharacterValidation: 0
   m_RegexValue: 
-  m_GlobalPointSize: 14
+  m_GlobalPointSize: 62.3
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
@@ -3472,7 +3484,7 @@ MonoBehaviour:
   m_CaretWidth: 1
   m_ReadOnly: 0
   m_RichText: 1
-  m_GlobalFontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_GlobalFontAsset: {fileID: 11400000, guid: 747ca2771a642bb4d89a4c02449ae6f2, type: 2}
   m_OnFocusSelectAll: 1
   m_ResetOnDeActivation: 1
   m_KeepTextSelectionVisible: 0
@@ -3563,7 +3575,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 76d17e397045d4e4c8e3a421c87ceaff, type: 2}
   - {fileID: 11400000, guid: 5ab0058d4bcf0a048ac7d1dbe060f469, type: 2}
   - {fileID: 11400000, guid: 7dd46c8cf8e4e3b438f61a447481c89b, type: 2}
-  templateData: {fileID: 11400000, guid: 6a4c2a530254c6f44853e78d78313dad, type: 2}
+  templateDataKr: {fileID: 0}
+  templateDataEn: {fileID: 0}
 --- !u!4 &2110876050
 Transform:
   m_ObjectHideFlags: 0
@@ -3609,6 +3622,8 @@ MonoBehaviour:
   - {fileID: 427474623}
   - {fileID: 1179161387}
   confirmButtonText: {fileID: 491530662}
+  PromptKr: {fileID: 0}
+  PromptEn: {fileID: 0}
   progressDotList:
   - {fileID: 1466762838}
   - {fileID: 1159571017}

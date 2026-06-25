@@ -16,6 +16,10 @@ public class PromptUIManager : MonoBehaviour
     public List<GameObject> toggleButton = new();
     public TMP_Text confirmButtonText;
 
+    [Header("결과 UI")]
+    public TMP_InputField PromptKr;
+    public TMP_InputField PromptEn;
+
     [Header("진행도 UI")]
     public List<Image> progressDotList = new();
 
