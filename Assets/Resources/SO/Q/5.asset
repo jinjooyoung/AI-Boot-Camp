@@ -22,4 +22,10 @@ MonoBehaviour:
   - "SNS \uAC10\uC131"
   - "\uC9C1\uC811 \uC81C\uC791"
   - "\uD55C\uC815 \uD310\uB9E4"
-  Images: []
+  Images:
+  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
+  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
+  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
+  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
+  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
+  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}

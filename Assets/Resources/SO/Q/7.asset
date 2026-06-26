@@ -22,4 +22,10 @@ MonoBehaviour:
   - "\uB9AC\uBDF0 \uC774\uBCA4\uD2B8"
   - "\uAE30\uAC04 \uD55C\uC815"
   - "\uC5C6\uC74C"
-  Images: []
+  Images:
+  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
+  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
+  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
+  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
+  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
+  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
