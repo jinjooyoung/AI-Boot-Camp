@@ -23,9 +23,9 @@ MonoBehaviour:
   - "\uC8FC\uD0DD\uAC00"
   - "\uB300\uD559\uAC00"
   Images:
-  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
-  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
-  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
-  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
-  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
-  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
+  - {fileID: 4130640169021434097, guid: 99754416eabbaec46aaf0894b5c37e1d, type: 3}
+  - {fileID: -2128195291, guid: 99754416eabbaec46aaf0894b5c37e1d, type: 3}
+  - {fileID: -1994880552, guid: 99754416eabbaec46aaf0894b5c37e1d, type: 3}
+  - {fileID: 82316222, guid: 99754416eabbaec46aaf0894b5c37e1d, type: 3}
+  - {fileID: -1777252192, guid: 99754416eabbaec46aaf0894b5c37e1d, type: 3}
+  - {fileID: -1612639759, guid: 99754416eabbaec46aaf0894b5c37e1d, type: 3}

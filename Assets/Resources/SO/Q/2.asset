@@ -23,9 +23,9 @@ MonoBehaviour:
   - "\uC804\uBB38\uC801\uC778"
   - "\uC2EC\uD50C\uD55C"
   Images:
-  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
-  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
-  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
-  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
-  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
-  - {fileID: 21300000, guid: 5a4c1557d42f0aa4a9d16f2b2ff0ded7, type: 3}
+  - {fileID: -6470460504253458178, guid: d6f58bf14174ce24c90aa5f65c5085a2, type: 3}
+  - {fileID: 1427789032, guid: d6f58bf14174ce24c90aa5f65c5085a2, type: 3}
+  - {fileID: 178970253, guid: d6f58bf14174ce24c90aa5f65c5085a2, type: 3}
+  - {fileID: -1470423384, guid: d6f58bf14174ce24c90aa5f65c5085a2, type: 3}
+  - {fileID: 889737147, guid: d6f58bf14174ce24c90aa5f65c5085a2, type: 3}
+  - {fileID: -1157012386, guid: d6f58bf14174ce24c90aa5f65c5085a2, type: 3}
