@@ -16,16 +16,16 @@ MonoBehaviour:
   questionSubText: "\uC18C\uAC1C\uD560 \uB0B4\uC6A9\uC744 \uC120\uD0DD\uD574 \uC8FC\uC138\uC694."
   title: "\uBB34\uC5C7\uC744 \uD64D\uBCF4\uD558\uC2DC\uB098\uC694?"
   recommendedAnswers:
-  - "\uC74C\uB8CC"
-  - "\uB514\uC800\uD2B8"
-  - "\uC138\uD2B8 \uBA54\uB274"
   - "\uC2E0\uBA54\uB274"
   - "\uC774\uBCA4\uD2B8 \uBA54\uB274"
   - "\uAD7F\uC988"
+  - "\uC74C\uB8CC"
+  - "\uB514\uC800\uD2B8"
+  - "\uC138\uD2B8 \uBA54\uB274"
   Images:
-  - {fileID: -8892613527292705100, guid: 15694616468014040bbd2afde6185cdb, type: 3}
-  - {fileID: -1092320326, guid: 15694616468014040bbd2afde6185cdb, type: 3}
-  - {fileID: -1545363280, guid: 15694616468014040bbd2afde6185cdb, type: 3}
   - {fileID: 1023960722, guid: 15694616468014040bbd2afde6185cdb, type: 3}
   - {fileID: -1911854964, guid: 15694616468014040bbd2afde6185cdb, type: 3}
   - {fileID: -978330859, guid: 15694616468014040bbd2afde6185cdb, type: 3}
+  - {fileID: -8892613527292705100, guid: 15694616468014040bbd2afde6185cdb, type: 3}
+  - {fileID: -1092320326, guid: 15694616468014040bbd2afde6185cdb, type: 3}
+  - {fileID: -1545363280, guid: 15694616468014040bbd2afde6185cdb, type: 3}
