@@ -15,4 +15,7 @@ public class QuestionData : ScriptableObject
 
     [Header("토글 추천 답변")]
     public List<string> recommendedAnswers = new();
+
+    [Header("버튼 이미지")]
+    public List<Sprite> Images = new();
 }

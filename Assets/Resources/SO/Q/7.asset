@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 7
   m_EditorClassIdentifier: Assembly-CSharp::QuestionData
   ID: 7
-  questionSubText: "\uACE0\uAC1D\uC5D0\uAC8C \uC5B4\uB5A4 \uD61C\uD0DD\uC744 \uC904
-    \uC608\uC815\uC778\uAC00\uC694?"
+  questionSubText: "\uC5B4\uB5A4 \uD61C\uD0DD\uC744 \uC904 \uC608\uC815\uC778\uAC00\uC694?"
   title: "\uD61C\uD0DD\uC774\uB098 \uC774\uBCA4\uD2B8\uAC00 \uC788\uB098\uC694?"
   recommendedAnswers:
   - "10% \uD560\uC778"
   - 1+1
   - "\uC0AC\uC740\uD488 \uC99D\uC815"
   - "\uB9AC\uBDF0 \uC774\uBCA4\uD2B8"
-  - "\uC120\uCC29\uC21C \uC774\uBCA4\uD2B8"
+  - "\uAE30\uAC04 \uD55C\uC815"
   - "\uC5C6\uC74C"
+  Images: []

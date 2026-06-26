@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e691cd2a792a6e142b075894da04301d
+guid: 41e462c6597bb7946999d1d11906d69b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3868213602998096000
-    second: "\uBA54\uC778_0"
+      213: 3853805381159476143
+    second: "\uBA54\uC778 1_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 10
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\uBA54\uC778_0"
+      name: "\uBA54\uC778 1_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 080190af6c7aea530800000000000000
-      internalID: 3868213602998096000
+      spriteID: fabdf7963977b7530800000000000000
+      internalID: 3853805381159476143
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "\uBA54\uC778_0": 3868213602998096000
+      "\uBA54\uC778 1_0": 3853805381159476143
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

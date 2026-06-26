@@ -81,6 +81,7 @@ public class PromptManager : MonoBehaviour
 
             PromptUIManager.Instance.ToggleQuestionTab();
             PromptUIManager.Instance.TogglePromptTab();
+            PromptUIManager.Instance.GenerateAndApplyTexts();
             return;
         }
 
